@@ -14,7 +14,7 @@ p {
 }
 
 /***************** flottements ************************/
-.colonne {
+.float-left {
   float: left;
 }
 .clear {
@@ -29,11 +29,11 @@ p {
 }
 
 /******************* header *****************/
-.heard_logo {
+.header_logo {
   width: 280px;
 }
 
-.heard_pub {
+.header_pub {
   width: 690px;
   background-color: #f90;
   text-align: center;
@@ -48,7 +48,7 @@ p {
   padding: 0px;
   text-align: center;
 }
-.liste-item {
+.liste_item {
   display: inline-block;
   list-style: none;
 }
@@ -70,19 +70,19 @@ p {
 }
 /*******contenu et colonnes********/
 
-.contenu {
+.contenu_3_col {
   display: flex;
   justify-content: space-between;
 }
-.contenu_centre {
+.col_centre {
   width: 50%;
   margin: 10px 0 0 0;
   padding: 10px;
   background-color: #ff0;
 }
 
-.contenu_gauche,
-.contenu_droite {
+.col_gauche,
+.col_droite {
   width: 22%;
   margin: 10px;
   min-height: 500px;
@@ -90,24 +90,25 @@ p {
 }
 
 /*******colonne gauche********/
-.contenu_gauche .bloc {
+.bloc {
   padding: 0 5px 10px 10px;
   margin-top: 10px;
   font-size: 0.8em;
 }
-.contenu_gauche .bloc h3 {
+
+.col_gauche_bloc_tire_h3 {
   background: #fff;
   padding: 0.2em;
   text-align: center;
   margin-bottom: 0.5em;
 }
-.contenu_gauche .bloc span {
+.col_gauche_date_bleu {
   color: #3b4ea1;
 }
 
 /*******colonne centre********/
 
-.alignLogo_droite {
+.align_logo_droite {
   float: right;
   margin: 0 0 10px 10px;
 }
@@ -135,22 +136,20 @@ p {
   padding: 10px;
 }
 
-.actualites h2 {
+.actualites_titre_h2 {
   text-align: center;
 }
-.actualites .bloc {
+.bloc_border-b {
   border-bottom: 1px solid #ac9068;
-  padding: 0 5px 10px 10px;
-  margin-top: 10px;
-  font-size: 0.8em;
 }
-.actualites .bloc h3 {
+.actualites_bloc_titre_h3 {
   font-weight: bold;
   font-size: 12px;
   font-weight: bold;
   margin: 0 0 3px 0;
 }
-.actualites .bloc span {
+
+.actualites_date_bold-orange {
   color: #d48940;
   font-weight: bold;
 }

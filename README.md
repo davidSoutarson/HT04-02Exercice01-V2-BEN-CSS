@@ -32,31 +32,36 @@ Voici une page HTML CSS dont les ciblages ont été réalisés il y a quelques a
 
 3. Reprendre les noms de classes et les identifiants dans les fichiers HTML et CSS
 
-   | class ou id</br>id remplacer par class | original        | modification:class |
-   | :------------------------------------: | :-------------- | :----------------- |
-   |                   id                   | wraper          | ...                |
-   |              id => class               | header          | ...                |
-   |               id=> class               | logo            | header_logo        |
-   |                 class                  | clolonne        | ...                |
-   |              id => class               | pub             | heard_pub          |
-   |                 class                  | clear           | ...                |
-   |                  ---                   | ---             | ---                |
-   |                ajouter                 | nav +++         | nav                |
-   |              id => class               | menu_horizontal | nav_menu           |
-   |                ajouter                 | li +++          | liste_item         |
-   |                ajouter                 | a +++           | item               |
-   |          survole: .item:hover          | .item:hover     | .item:hover        |
-   |                  ---                   | ---             | ---                |
-   |              id => class               | contenu         | ...                |
-   |              id => class               | contenu_gauche  | col_gauche         |
-   |                 class                  | bloc            | ...                |
-   |                 class                  | date            | ...                |
-   |              id => class               | contenu_centre  | ...                |
-   |                 class                  | align_droite    | ...                |
-   |              id => class               | vignettes       | ...                |
-   |                 class                  | vignette        | ...                |
-   |              id => class               | contenu_droite  | ...                |
-   |              id => class               | actulites       | ...                |
-   |              id => class               | footer          | ...                |
+   | class ou id</br>id remplacer par class | original                  | modification:class          |
+   | :------------------------------------: | :------------------------ | :-------------------------- |
+   |                   id                   | wraper                    | ...                         |
+   |              id => class               | header                    | ...                         |
+   |               id=> class               | logo                      | header_logo                 |
+   |                 class                  | clolonne                  | ...                         |
+   |              id => class               | pub                       | header_pub                  |
+   |                 class                  | clear                     | ...                         |
+   |                  ---                   | ---                       | ---                         |
+   |                ajouter                 | nav +++                   | nav                         |
+   |              id => class               | menu_horizontal           | nav_menu                    |
+   |                ajouter                 | li +++                    | liste_item                  |
+   |                ajouter                 | a +++                     | item                        |
+   |          survole: .item:hover          | .item:hover               | .item:hover                 |
+   |                  ---                   | ---                       | ---                         |
+   |              id => class               | contenu                   | contenu_3_col               |
+   |              id => class               | contenu_gauche            | col_gauche                  |
+   |                 class                  | bloc                      | ...                         |
+   |                 class                  | date                      | col_gauche_date_bleu        |
+   |              id => class               | contenu_centre            | col_centre                  |
+   |                 class                  | align_droite              | align_logo_droite           |
+   |              id => class               | vignettes                 | ...                         |
+   |                 class                  | vignette                  | ...                         |
+   |                  ---                   | ---                       | ---                         |
+   |              id => class               | contenu_droite            | col_droite                  |
+   |              id => class               | actulites                 | ...                         |
+   |                ajouter                 | h2 => actualites_titre_h2 | actualites_titre_h2         |
+   |                ajouter                 | h3 => actualites_titre_h2 | actualites_titre_h3         |
+   |                ajouter                 | bloc_border-b             | bloc_border-b               |
+   |                ajouter                 | date_bold-orange          | actualites_date_bold-orange |
+   |              id => class               | footer                    | ...                         |
 
 4. N’envoyez que la version retravaillée pour la correction.
