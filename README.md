@@ -43,8 +43,9 @@ Voici une page HTML CSS dont les ciblages ont été réalisés il y a quelques a
    |                  ---                   | ---             | ---                |
    |                ajouter                 | nav +++         | nav                |
    |              id => class               | menu_horizontal | nav_menu           |
-   |                ajouter                 | li +++          | liste_items        |
+   |                ajouter                 | li +++          | liste_item         |
    |                ajouter                 | a +++           | item               |
+   |          survole: .item:hover          | .item:hover     | .item:hover        |
    |                  ---                   | ---             | ---                |
    |              id => class               | contenu         | ...                |
    |              id => class               | contenu_gauche  | col_gauche         |

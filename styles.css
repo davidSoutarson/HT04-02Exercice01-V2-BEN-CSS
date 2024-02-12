@@ -33,7 +33,7 @@ p {
   width: 280px;
 }
 
-.pub {
+.heard_pub {
   width: 690px;
   background-color: #f90;
   text-align: center;
@@ -43,12 +43,12 @@ p {
 }
 
 /*********************menu****************************************/
-.menu_horizontal {
+.nav_menu {
   margin: 1em 0px 0px 0px;
   padding: 0px;
   text-align: center;
 }
-.nenu-item {
+.liste-item {
   display: inline-block;
   list-style: none;
 }
