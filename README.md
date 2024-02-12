@@ -32,26 +32,29 @@ Voici une page HTML CSS dont les ciblages ont été réalisés il y a quelques a
 
 3. Reprendre les noms de classes et les identifiants dans les fichiers HTML et CSS
 
-   | class ou id | original        | modification |
-   | :---------: | :-------------- | :----------- |
-   |     id      | wraper          | ...          |
-   |     id      | header          | ...          |
-   |     id      | logo            | ...          |
-   |    class    | clolonne        | ...          |
-   |     id      | pub             | ...          |
-   |    class    | clear           | ...          |
-   |     ---     | ---             | ---          |
-   |     id      | menu_horizontal | ...          |
-   |     id      | contenu         | ...          |
-   |     id      | contenu_gauche  | ...          |
-   |    class    | bloc            | ...          |
-   |    class    | date            | ...          |
-   |     id      | contenu_centre  | ...          |
-   |    class    | align_droite    | ...          |
-   |     id      | vignettes       | ...          |
-   |    class    | vignette        | ...          |
-   |     id      | contenu_droite  | ...          |
-   |     id      | actulites       | ...          |
-   |     id      | footer          | ...          |
+   | class ou id id renplacer par class | original        | modification |
+   | :--------------------------------: | :-------------- | :----------- |
+   |                 id                 | wraper          | ...          |
+   |            id => class             | header          | ...          |
+   |             id=> class             | logo            | ...          |
+   |               class                | clolonne        | ...          |
+   |            id => class             | pub             | ...          |
+   |               class                | clear           | ...          |
+   |                ---                 | ---             | ---          |
+   |            id => class             | menu_horizontal | nav_menu     |
+   |              ajouter               | li +++          | liste_items  |
+   |              ajouter               | a +++           | item         |
+   |                ---                 | ---             | ---          |
+   |            id => class             | contenu         | ...          |
+   |            id => class             | contenu_gauche  | ...          |
+   |               class                | bloc            | ...          |
+   |               class                | date            | ...          |
+   |            id => class             | contenu_centre  | ...          |
+   |               class                | align_droite    | ...          |
+   |            id => class             | vignettes       | ...          |
+   |               class                | vignette        | ...          |
+   |            id => class             | contenu_droite  | ...          |
+   |            id => class             | actulites       | ...          |
+   |            id => class             | footer          | ...          |
 
 4. N’envoyez que la version retravaillée pour la correction.
